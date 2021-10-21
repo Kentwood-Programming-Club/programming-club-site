@@ -89,8 +89,10 @@ const terminal_settings = {
                "]"
 }
 
+let term;
+
 function main() {
-    $("body").terminal(
+    term = $("body").terminal(
         interpreter,
         terminal_settings
     );
